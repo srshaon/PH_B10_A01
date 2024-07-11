@@ -208,9 +208,9 @@ height: 250px;
     display: flex;
     justify-content: space-between;
     background-color: rgba(216, 216, 216, 0.189);
-    
     padding: 20px 80px;
 }
+
 button {
     cursor: pointer;
   }
