@@ -46,7 +46,7 @@
     
     flex-direction: column;
     gap: 20px;
-    border: 5px solid yellow;
+    
     padding: 30px;
 }
 .banner-title, .banner-description {
@@ -74,6 +74,11 @@
     gap: 20px;
     padding: 20px;
 }
+.why-development-section{
+    background-color: rgba(206, 202, 202, 0.077);
+    border: 5px solid  rgba(169, 169, 169, 0.049);
+    border-radius: 10px;
+}
 .web-development-title, .my-inspiration-title, .current-target-title, .card-title{
     font-weight: 900;
 }
@@ -82,12 +87,17 @@
 }
 .web-development-details{
     flex-direction: column;
+    gap: 30px;
 }
 .para-container-1, .para-container-2, .para-container-3{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 200px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
 }
 .para-container-text{
     display: flex;
@@ -100,6 +110,7 @@
     border: 1px solid rgba(0, 0, 0, 0.298);
     font-weight: 600;
     color: #151b2ace;
+    background-color: white;
 }
 .para-container-text-title{
     font-weight: bold;
