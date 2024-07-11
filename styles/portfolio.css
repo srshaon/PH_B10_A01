@@ -33,8 +33,8 @@
     border-radius: 8px;
     box-shadow: 1px 0.5px;
     padding: 17px 24px;
-    color: #0d1321e6;
     font-weight: 600;
+    color: #151b2ace;
 }
 /* banner styles */
 .banner{
@@ -63,4 +63,53 @@
     font-weight: 600;
 
 }
-/* second section */
+/* main body styles */
+.main-container{
+    margin: 20px 40px;
+    padding: 20px;
+}
+/* why web development styles */
+.why-development-section{
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.web-development-title{
+    font-weight: 900;
+}
+.web-development-para{
+    color: #0d1321e6;
+}
+.web-development-details{
+    flex-direction: column;
+}
+.para-container-1, .para-container-2, .para-container-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+.para-container-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.learn-more-btn{
+    width: 150px;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.298);
+    font-weight: 600;
+    color: #151b2ace;
+}
+.para-container-text-title{
+    font-weight: bold;
+    color: #151b2ace;
+}
+.para-container-text-details{
+    color: #0d1321e6;
+}
+.para-container-2{
+flex-direction: row-reverse;
+justify-content: end;
+align-items: center;
+}
